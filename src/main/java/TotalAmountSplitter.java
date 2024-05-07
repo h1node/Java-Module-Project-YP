@@ -9,7 +9,6 @@ public class TotalAmountSplitter {
         } else {
             formattedAmount = String.format("%.2f рубля", perPersonAmount).replace(".", ",");
         }
-
         System.out.println("Каждый человек должен заплатить: " + formattedAmount);
     }
 }
